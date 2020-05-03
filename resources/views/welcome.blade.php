@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Welcome to the Kaveinga's Restaurant
                 </div>
 
                 <div class="links">
