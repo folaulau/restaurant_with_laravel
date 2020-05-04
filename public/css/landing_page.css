@@ -1,0 +1,15 @@
+
+.landing-page-section{
+    margin-top: 20px;;
+}
+@media (max-width: 575px) {
+    .carousel-inner > .carousel-item {
+        height: 200px;
+    }
+}
+
+@media (min-width: 576px) {
+    .carousel-inner > .carousel-item {
+        height: 500px;
+    }
+}
