@@ -1,6 +1,7 @@
 
 .landing-page-section{
-    margin-top: 20px;;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 @media (max-width: 575px) {
     .carousel-inner > .carousel-item {
@@ -12,4 +13,9 @@
     .carousel-inner > .carousel-item {
         height: 500px;
     }
+}
+
+#footer{
+    margin-top: 20px;
+    padding: 10px;
 }

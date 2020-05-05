@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.landing.content');
 });
+
+Route::get('/aboutus', function () {
+    return view('about-us');
+});
+
+Route::get('/menu', function () {
+    return view('menu');
+});
+
+Route::get('/signup', 'AuthenticationController@showSignUp');
+
+Route::get('/signin', 'AuthenticationController@showSignIn');
